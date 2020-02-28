@@ -68,7 +68,7 @@ public class LobbyController : MonoBehaviourPunCallbacks // <-- inherit from pun
         // room name & player name
         if (createdRooms.Count == 0)
         {
-            GameObject listItem = Instantiate(Resources.Load<GameObject>("ListItem"));
+            GameObject listItem = Instantiate(Resources.Load<GameObject>("RoomListItem"));
             listItem.transform.SetParent(joinServerList.transform);
             listItem.transform.localScale = new Vector3(1f, 1f, 1f);
             listItem.transform.position = new Vector3(listItem.transform.position.x, listItem.transform.position.y, 1);
@@ -81,7 +81,7 @@ public class LobbyController : MonoBehaviourPunCallbacks // <-- inherit from pun
         {
             for (int i = 0; i < createdRooms.Count; i++)
             {
-                GameObject listItem = Instantiate(Resources.Load<GameObject>("ListItem"));
+                GameObject listItem = Instantiate(Resources.Load<GameObject>("RoomListItem"));
                 listItem.transform.SetParent(joinServerList.transform);
                 listItem.transform.localScale = new Vector3(1f, 1f, 1f);
                 listItem.transform.position = new Vector3(listItem.transform.position.x, listItem.transform.position.y, 1);
