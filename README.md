@@ -6,7 +6,7 @@ A Katamari Damacy inspired Unity project. Requires Unity to run.
 
 # Live Deployment
 
-Go check out the live game at https://sleepy-bayou-30216.herokuapp.com/
+Go check out the live game at https://datakama.herokuapp.com/
 
 # Built With
 
